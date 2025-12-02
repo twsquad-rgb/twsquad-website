@@ -1,0 +1,243 @@
+/* Basic Reset and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e; /* Dark Blue Background */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #0d0d1e;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 0.95em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.cta-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.header-cta {
+    background-color: #007bff; /* Blue Button */
+    color: #ffffff !important;
+    margin-left: 30px;
+}
+
+.header-cta:hover {
+    background-color: #0056b3;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background-color: #1a1a2e;
+    background-image: url('background-image-abstract.jpg'); /* একটি abstract background ছবি লাগান */
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 4em;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.sub-title {
+    font-size: 2em;
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.primary-cta {
+    background-color: #38c172; /* Green Button */
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.primary-cta:hover {
+    background-color: #2d995b;
+}
+
+.scroll-down {
+    margin-top: 30px;
+    opacity: 0.7;
+    font-size: 0.9em;
+}
+
+/* How It Works Section Styling */
+.how-it-works-section {
+    background-color: #0d0d1e;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.how-it-works-section h3 {
+    font-size: 1.8em;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.steps-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.step-box img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.broker-logos img {
+    height: 40px;
+    margin: 0 15px;
+    opacity: 0.8;
+}
+
+/* Testimonials Section Styling */
+.testimonials-section {
+    background-color: #007bff; /* Blue Background */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.testimonials-section h3 {
+    font-size: 1.8em;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.testimonial-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.client-name {
+    font-weight: bold;
+    color: #ffc107; /* Yellow highlight */
+}
+
+.secondary-cta {
+    background-color: #ffc107; /* Yellow Button */
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.secondary-cta:hover {
+    background-color: #e0a800;
+}
+
+/* Footer Styling */
+.main-footer {
+    background-color: #0d0d1e;
+    padding: 30px 0 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #2c2c4c;
+    margin-bottom: 10px;
+}
+
+.footer-logo img {
+    height: 30px;
+}
+
+.footer-logo span {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.footer-links p, .footer-contact p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.footer-links a, .footer-contact a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.8em;
+    opacity: 0.6;
+}
